@@ -10,6 +10,8 @@
 		CE08C5011ADDE72F0095917D /* ParseX.h in Headers */ = {isa = PBXBuildFile; fileRef = CE08C5001ADDE72F0095917D /* ParseX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE08C5071ADDE72F0095917D /* ParseX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE08C4FB1ADDE72F0095917D /* ParseX.framework */; };
 		CE08C50E1ADDE72F0095917D /* ParseXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08C50D1ADDE72F0095917D /* ParseXTests.swift */; };
+		CE08C5241ADDE79B0095917D /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08C51B1ADDE79B0095917D /* Parser.swift */; };
+		CE08C52A1ADDE8EF0095917D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08C5291ADDE8EF0095917D /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		CE08C5061ADDE72F0095917D /* ParseXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE08C50C1ADDE72F0095917D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE08C50D1ADDE72F0095917D /* ParseXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseXTests.swift; sourceTree = "<group>"; };
+		CE08C51B1ADDE79B0095917D /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		CE08C5291ADDE8EF0095917D /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		CE08C4FD1ADDE72F0095917D /* ParseX */ = {
 			isa = PBXGroup;
 			children = (
+				CE08C51B1ADDE79B0095917D /* Parser.swift */,
+				CE08C5291ADDE8EF0095917D /* StringExtension.swift */,
 				CE08C5001ADDE72F0095917D /* ParseX.h */,
 				CE08C4FE1ADDE72F0095917D /* Supporting Files */,
 			);
@@ -209,6 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE08C5241ADDE79B0095917D /* Parser.swift in Sources */,
+				CE08C52A1ADDE8EF0095917D /* StringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
